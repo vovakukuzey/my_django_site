@@ -3,26 +3,38 @@
 <html lang="en">
     <head>
         <title>Прикладное ПО 1</title>
-        <link rel="stylesheet" href="{% static 'css/app.css' %}">
+        <link rel="stylesheet" href="{% static 'css/app.css' %}">		
     </head>
     <body>
-        <div>
-            <h1><a href="/">Домашняя страница</a></h1>
-        </div>
+	<header>
+		<h1><a href="/">Википедия</a></h1> 	
+	</header>
             <div class="content container">
     <div class="row">
         <div class="col-md-8">
                 {% for post in posts %}
                     <div class="post">
                         <div class="date">
-                             <p>Создано: {{ post.сreated_date }}</p>
-                        </div>
+                             <p>Статья про: {{ post.сreated_date }}</p>
+                        </div>					
                         <h1><a href="">{{ post.title }}</a></h1>
                         <p>{{ post.text|linebreaksbr }}</p>
                     </div>
                 {% endfor %}
+				<div id="header">
+		 		 
+	<div id="clear">
+		 
+	</div>
+							   
         </div>
         </div>
     </div>
+	<div class="footer"></div>
     </body>
+	<footer>
+		<div id="footer">
+			<h2>footer</h2>
+		</div>
+	<footer>
 </html>

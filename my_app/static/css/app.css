@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #0065ff;
+    background-color: #f6f6f6; 
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -34,4 +34,20 @@ h1, h2, h3, h4 {
 }
 .post h1 a, .post h1 a:visited {
     color: #000000;
+}
+#footer {
+            background: #0645ad;		
+            width: 900px;
+			padding: 5px;
+			border: 1px;
+			height: 100px;
+			color: #fff;
+}
+header {
+    text-align: justify;
+    letter-spacing: 1px;
+    height: 8em;
+    padding: 2em 10%;
+    background: #0645ad;
+    color: #fff;
 }
